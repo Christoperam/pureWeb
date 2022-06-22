@@ -1,0 +1,40 @@
+#r1 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#trash-icon {
+    height: auto;
+    width: 20%;
+    color: #FF0632;
+}
+
+#edit-icon {
+    height: auto;
+    width: 20%;
+    color: deepskyblue;
+}
+
+#search-icon {
+    height: auto;
+    width: 20%;
+    color: #11A52E;
+}
+
+#trash-icon:hover,
+#edit-icon:hover,
+#search-icon:hover {
+    -webkit-animation: shake 0.1s ease-in-out 0.1s infinite alternate;
+}
+
+/** Se tiene que usar esta madre */
+@-webkit-keyframes shake {
+    from {
+        -webkit-transform: rotate(15deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-15deg);
+        -webkit-transform-origin: center center;
+    }
+}
